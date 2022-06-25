@@ -1,0 +1,2 @@
+SELECT DATENAME(MONTH,[HumanResources].[Employee].[HireDate]) AS "Mname",COUNT([HumanResources].[Employee].[LoginID]) AS "EmpNO22" from [AdventureWorks2019].[HumanResources].[Employee]
+GROUP BY [HumanResources].[Employee].[HireDate]
